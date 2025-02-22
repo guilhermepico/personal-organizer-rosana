@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Rosana Personal Organizer</title>
   </head>
   <body>
@@ -20,10 +26,20 @@
           alt="Logo Rosana Batista Personal Organizer"
         />
       </section>
+      <section id="contatoHeader" hidden>
+        <div class="wppHead">
+          <ion-icon name="logo-whatsapp" id="wppIcon"></ion-icon
+          ><span>(12) 9.9751-2968</span>
+        </div>
+        <div class="instHead">
+          <ion-icon name="logo-instagram" id="instaIcon"></ion-icon
+          ><span>@ropersonaldesigner</span>
+        </div>
+      </section>
       <section id="links">
-        <a href="">SERVIÇOS</a>
-        <a href="">MÍDIA</a>
-        <a href="">CONTATO</a>
+        <a href="">Serviços</a>
+        <a href="">Mídia</a>
+        <a href="">Contato</a>
       </section>
       <section id="socialinks" hidden>
         <a
@@ -58,22 +74,32 @@
           <div class="before-after">
             <section id="before">
               <div class="antes"><p>ANTES</p></div>
-              <img src="./assets/antes.jpeg" alt="" />
+              <img src="./assets/roupas.jpg" alt="" />
             </section>
             <section id="after">
               <div class="depois"><p>DEPOIS</p></div>
-              <img src="./assets/after.jpg" alt="" />
+              <img src="./assets/guardaroupa.jpg" alt="" />
             </section>
           </div>
         </div>
-        <h3 class="fade-in">Solicite seu orçamento sem compromisso.</h3>
-        <button>
-          <ion-icon name="logo-whatsapp" id="wppicon"></ion-icon>WhatsApp
-        </button>
+        <h3 class="fade-in">
+          Solicite seu orçamento <span>SEM COMPROMISSO</span> nos seguintes
+          canais:
+        </h3>
+        <div class="contactBtn">
+          <button>
+            <ion-icon name="logo-whatsapp" id="wppIcon"></ion-icon>WhatsApp
+          </button>
+          <button id="instaBtn">
+            <ion-icon name="logo-instagram" id="instaIcon"></ion-icon>Instagram
+          </button>
+        </div>
       </div>
       <div id="popup" class="popup">
         <div class="popup-content">
-          <span id="closeBtn" class="close-btn">&times;</span>
+          <div class="closeBtn">
+            <span id="closeBtn" class="close-btn">&times;</span>
+          </div>
           <h2>GB Company/Guilherme Pico</h2>
           <p>Web Designer and Front-End Developer</p>
           <a href="https://www.instagram.com/guilhermepiico/"

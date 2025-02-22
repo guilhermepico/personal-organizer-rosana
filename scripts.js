@@ -5,7 +5,7 @@ const closeBtn = document.getElementById("closeBtn");
 
 // Quando o botão é clicado, mostra o popup
 openPopupBtn.addEventListener('click', function() {
-    popup.style.display = 'block';
+    popup.style.display = 'flex';
 });
 
 // Quando o botão de fechar é clicado, esconde o popup
